@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Inter",sans-serif;
+    border-bottom-style: inset;
+}
+
+.logo{
+    margin-left: 118px;
+}
+
+nav{
+    margin-right: 117px;
+}
+.navegacao{
+    border: none;
+    background-color: white;
+    font-family: "Inter",sans-serif;
+}
+.navegacao:hover{
+    border-bottom-style: solid;
+    cursor: pointer;
+    transition: 100ms;
+    transition-delay: 10ms;
+}
+main{
+    margin-top: 52px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    font-family: "Inter",sans-serif;
+}
+.listaProdutos{
+    width: 968px;
+    height: max-content;
+    font-family: "Inter",sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    width: 296px;
+    height: 408px;
+    background-color: #F5F5F5;
+    font-family: "Inter",sans-serif;
+    margin-bottom: 20px;
+}
+.usuario{
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter",sans-serif;
+    margin-left: 10px;
+}
+.carrinho{
+    width: 359px;
+    height: 505px;
+    background-color: black;
+    font-family: "Inter",sans-serif;
+}
+.barraPesquisa{
+    margin-bottom: 27px;
+    display: flex;
+    font-family: "Inter",sans-serif;
+}
+.pesquisar{
+    background-color: #2E245E;
+    color: white;
+    width: 96px;
+    height: 52px;
+    border-style: none;
+    margin-left: 8px;
+    font-family: "Inter",sans-serif;
+}
+.pesquisar:hover{
+    cursor: pointer;
+}
+input{
+    height: 52px;
+    width: 246px;
+    font-family: "Inter",sans-serif;
+    background-color: #F5F5F5;
+    border-style: none;
+}
+input:hover{
+    cursor: pointer;
+}
+.imagemProduto{
+    background-color: #F5F5F5;
+    width: 296px;
+    height: 154px;
+}
+.categoria{
+    width: 100px;
+}
+
+.preco{
+
+}
+.adicionarCarrinho{
+
+}
