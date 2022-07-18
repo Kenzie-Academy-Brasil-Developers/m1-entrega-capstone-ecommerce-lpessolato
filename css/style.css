@@ -76,6 +76,20 @@ main{
     width: 359px;
     height: 329px;
     background-color: #F5F5F5;
+    overflow-y: scroll;
+
+}
+.divImagemCarrinho{
+    width: 88px;
+    height: 92px;
+}
+.informacoesCarrinho{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 15px;
+    width: 144px;
+    height: 68px;
 }
 .imagemCarrinho{
     width: 88px;
@@ -85,8 +99,11 @@ main{
     width: 289px;
     height: 92px;
     background-color: #F5F5F5;
-    margin-top: 28px;
+    display: flex;
+    align-items: center;
     margin-left: 14px;
+    margin-top: 8px;
+
 }
 .rodapeCarrinho{
     width: 359px;
@@ -136,7 +153,7 @@ input{
     border-style: none;
 }
 input:hover{
-    cursor: pointer;
+    cursor: text;
 }
 .imagemProduto{
     background-color: #F5F5F5;
@@ -175,3 +192,18 @@ input:hover{
     cursor: pointer;
     border-bottom: solid;
 }
+
+.tituloItem{
+    margin: 0px;
+}
+.precoItem{
+    margin: 0px;
+}
+.remover{
+    margin: 0px;
+}
+.remover:hover{
+    cursor: pointer;
+    border-bottom: solid;
+}
+
