@@ -50,6 +50,11 @@ main{
     font-family: "Inter",sans-serif;
     margin-bottom: 20px;
 }
+.card:hover{
+    border-style: solid;
+    transition: 100ms;
+    transition-delay: 100ms;
+}
 .usuario{
     display: flex;
     flex-direction: column;
@@ -206,4 +211,7 @@ input:hover{
     cursor: pointer;
     border-bottom: solid;
 }
-
+.carrinhoVazio{
+    text-align: center;
+    margin-top: 128px;
+}

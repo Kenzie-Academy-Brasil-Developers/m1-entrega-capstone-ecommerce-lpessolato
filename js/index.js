@@ -54,11 +54,13 @@ const quantidade = document.querySelector(".quantidade")
 
 const valor = document.querySelector(".valorTotal")
 
+
 let total = 0
 
 listaDeProdutos.addEventListener("click", adicionarProdutoCarrinho)
 
 let arrayCarrinho = []
+
 
 
 function adicionarProdutoCarrinho(event){
@@ -178,11 +180,15 @@ function removerDoCarrinho(event){
             divInformacoes.appendChild(precoItem)
             divInformacoes.appendChild(remover)
 
-
             quantidade.innerText = `${contador}`
             
+            
         }
-
+        if(arrayCarrinho.length===0){
+            quantidade.innerText = `0`
+            produtosCarrinho.innerHTML = `<h1 class="carrinhoVazio">Carrinho Vazio</h1>`
+        }
+ 
         total =0
         for(let i=0;i<arrayCarrinho.length;i++){
             total+=arrayCarrinho[i].value
